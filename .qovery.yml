@@ -1,0 +1,16 @@
+---
+application:
+  name: "xaria2"
+  project: "aria-rclone"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "Flintstones"
+    size: "2000"
+    type: "hdd"
+    mount_point: "/mnt/Flintstones"
+routers:
+- name: "main-xaria2"
+  routes:
+  - application_name: "xaria2"
+    paths:
+    - "/*"
